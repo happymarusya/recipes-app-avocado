@@ -46,11 +46,10 @@ function App() {
             <input className='search' placeholder='Search...'
                 onChange={myRecipeSearch} value={mySearch}>
             </input>
-          </form>
-
             <button>
               <img src="https://img.icons8.com/fluency/48/000000/fry.png" alt="icon" className='icons'/>
             </button>
+            </form>
           </div>
 
           <div className='container'> 
